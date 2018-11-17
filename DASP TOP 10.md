@@ -1,7 +1,10 @@
-
+## 1.重⼊漏洞Reentrancy
 ```
-1.重⼊漏洞
-也被稱為 或與空⽩競爭，遞迴調⽤漏洞，未知調⽤
+also known as 
+or related to race to empty或與空⽩競爭, 
+recursive call vulnerability遞迴調⽤漏洞, 
+call to the unknown未知調⽤
+
 
 這種漏洞在很多時候被很多不同的⼈忽略：審閱者傾向於⼀次⼀個地審查函數，並且假定保護⼦常式的調⽤將安全並按預期運⾏。 Phil Daian
 
